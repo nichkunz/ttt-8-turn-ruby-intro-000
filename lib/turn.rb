@@ -4,9 +4,9 @@ end
 
 def valid_move?(board, index)
   if board[index] > 0 && board[index] <10
-    return true
-  else
     return false
+  else
+    return true
   end
 end
 
