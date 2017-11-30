@@ -4,10 +4,14 @@ end
 
 def valid_move?(board, index)
   if index >= 0 && index < 9
-    return false
-  else
-    return true
+    if board[index] == "X" || board[index] == "O"
+      return false
+    else
+      return true
+    end
+  else return false
   end
+
 end
 
 def position_taken(board, index)
