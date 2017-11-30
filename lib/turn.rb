@@ -3,7 +3,7 @@ def display_board(board)
 end
 
 def valid_move?(board, index)
-  if board[index] > 0 && board[index] <10
+  if index > 0 && index <10
     return false
   else
     return true
