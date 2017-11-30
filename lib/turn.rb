@@ -10,6 +10,6 @@ def position_taken(board, index)
 
 end
 
-def input_to_index()
-
+def input_to_index(board, input)
+  index = input.to_i - 1
 end
