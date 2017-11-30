@@ -21,6 +21,6 @@ def input_to_index(input)
 end
 
 
-def turn(board)
-
+def turn(board, index, char)
+  
 end
