@@ -25,5 +25,7 @@ def move(board, index, char)
   if valid_move? == true
     board[index] == char
   else
+    ask
+  end
 
 end
