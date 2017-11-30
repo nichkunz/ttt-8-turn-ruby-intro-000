@@ -35,7 +35,7 @@ def turn(board)
     move(board, index, char = "X")
     display_board(board)
   else
-    puts "Please enter 1-9:"
-    return false
+    # puts "Please enter 1-9:"
+    # return false
   end
 end
