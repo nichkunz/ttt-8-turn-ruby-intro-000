@@ -21,6 +21,9 @@ def input_to_index(input)
 end
 
 
-def turn(board, index, char)
-  
+def move(board, index, char)
+  if valid_move? == true
+    board[index] == char
+  else
+
 end
